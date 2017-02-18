@@ -1,0 +1,48 @@
+body {
+  padding-top: 60px;
+}
+
+.row{
+	padding-top: 10px;
+}
+
+.bg-primary{
+	border-radius: 5px;
+}
+
+footer{
+	background: #333;
+	padding: 20px 0px;
+	color: #fff;
+	margin-top: 400px;
+}
+
+@media (max-width: 768px){
+  .col-sm-6 center#down{
+	    margin-top: 400px;
+   }
+}
+
+@media (min-width: 409px){
+	.col-sm-8 h2{
+	   text-align:left;
+	   float:left;
+	   padding: 0px 5px; 
+	   
+	}
+
+	.col-sm-8 button{
+	   margin: 20px 0 10px 25px;
+	   float: right;
+	}
+}
+@media (max-width: 409px){
+	.col-sm-8 h2{
+	   text-align:center;  
+	}
+
+	.col-sm-8 button{
+	   margin: 0px 0px 10px 0px;
+	   float: left;
+	}
+}
